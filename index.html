@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Harvest Robotics | Modular AI for Profitable, Sustainable Farming</title>
+    <meta name="description" content="A modular AI robot with interchangeable arms for versatile, cost-effective farm automation. Solve labor shortages and reduce waste.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+    <style>
+        /* CSS is embedded below for a single-file solution */
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background-color: #004d40; color: white; padding: 10px 0; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5em; }
+        .hero { background: #e0f2f1; padding: 80px 0; text-align: center; }
+        .hero h1 { font-family: 'Montserrat', sans-serif; font-size: 3em; color: #004d40; margin-bottom: 20px; }
+        .hero p { font-size: 1.2em; max-width: 800px; margin: 0 auto 30px; }
+        .cta-button { background-color: #ff9800; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: 700; font-size: 1.1em; transition: background-color 0.3s; }
+        .cta-button:hover { background-color: #e65100; }
+        .section { padding: 60px 0; }
+        .section h2 { font-family: 'Montserrat', sans-serif; text-align: center; color: #004d40; margin-bottom: 40px; font-size: 2em; }
+        .grid-3 { display: flex; justify-content: space-between; gap: 30px; }
+        .feature-box { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; flex: 1; }
+        .feature-box h3 { color: #ff9800; margin-top: 0; }
+        .social-proof { background-color: #004d40; color: white; text-align: center; padding: 40px 0; }
+        .logo-grid { display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; }
+        .logo-grid img { height: 40px; filter: invert(1); opacity: 0.7; margin: 15px; }
+        .form-section { background: #e0f2f1; padding: 60px 0; text-align: center; }
+        .form-section form { max-width: 500px; margin: 20px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .form-section input, .form-section select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .submit-button { width: 100%; background-color: #ff9800; color: white; padding: 15px; border: none; border-radius: 5px; font-weight: 700; cursor: pointer; transition: background-color 0.3s; }
+        footer { background-color: #222; color: white; text-align: center; padding: 20px 0; font-size: 0.9em; }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2em; }
+            .grid-3 { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ECO HARVEST ROBOTICS</div>
+                </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Modular AI Robot for Unmatched Versatility & Farm ROI.</h1>
+            <p>End labor shortages and crop waste with a single, cost-effective system that uses interchangeable arms to automate every farming task.</p>
+            <a href="#demo" class="cta-button">Schedule Your On-Farm Demo</a>
+        </div>
+    </div>
+
+    <div class="section" id="solution">
+        <div class="container">
+            <h2>Solving Your Biggest Farming Challenges</h2>
+            <div class="grid-3">
+                <div class="feature-box">
+                    <h3>LABOR SHORTAGES</h3>
+                    <p>Automate harvesting, weeding, and analysis with 24/7 reliability, eliminating dependency on manual labor.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>CROP VARIABILITY</h3>
+                    <p>AI computer vision precisely identifies ripeness and plant health, reducing waste and maximizing yield per acre.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>COST BARRIERS</h3>
+                    <p>Our modular, RaaS model means you buy one core unit and adapt it with interchangeable arms, significantly lowering capital cost.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-proof" id="proof">
+        <div class="container">
+            <h2>Trusted by the Future Leaders in Agriculture</h2>
+            <div class="logo-grid">
+                <img src="logo-agri-investors.png" alt="Agri-Business Investors Logo">
+                <img src="logo-farm-assoc.png" alt="Farm Association Logo">
+                <img src="logo-tech-partner.png" alt="Robotics Partner Logo">
+                <img src="logo-pilot-farm.png" alt="Pilot Farm Testimonial Logo">
+            </div>
+            <p style="margin-top: 30px; font-style: italic;">"Our pilot program showed a 30% reduction in labor costs in just one season." - Early Adopter Farm</p>
+        </div>
+    </div>
+
+    <div class="form-section" id="demo">
+        <div class="container">
+            <h2>Ready to Transform Your Farm?</h2>
+            <p>Fill out the form below to schedule a consultation and receive a personalized ROI estimate.</p>
+            <form action="/submit-demo-request" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Work Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+                <input type="text" name="farm_size" placeholder="Farm Size (Acres)" required>
+                <select name="crop_type" required>
+                    <option value="" disabled selected>Primary Crop Type</option>
+                    <option value="tomatoes">Tomatoes</option>
+                    <option value="berries">Berries / Soft Fruit</option>
+                    <option value="vineyards">Vineyards</option>
+                    <option value="other">Other High-Value Crop</option>
+                </select>
+                <button type="submit" class="submit-button">Request Free Consultation</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Eco Harvest Robotics. All rights reserved. | <a href="#" style="color: #ff9800; text-decoration: none;">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>
